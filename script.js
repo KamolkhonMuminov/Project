@@ -39,5 +39,42 @@
 // const category = 'toys';
 // console.log(`https://someurl.com/${category}/5`);
 
-const user = "Kamal";
-alert(`Hello, ${user}`);
+// const user = "Kamal";
+// alert(`Hello, ${user}`);
+
+// console.log('arr' + "- object");
+
+// let incr = 10,
+//      decr = 10;
+
+//     //  ++incr;
+//     //  --decr;
+
+// // console.log(++incr);
+// // console.log(--decr);
+
+// // console.log(5%2);
+// // console.log(4*2 == 8)
+
+// const isChecked = true,
+//       isClose = false;
+// console.log(isChecked || isClose);
+
+const numberOfFilms = +promt("How many films did you watch?" '');
+
+const personalMoviesDB = {
+    count: 'numberOfFilms',
+    movies: {},
+    actors: [],
+    genres: [],
+    privat: false
+};
+const a = promt('Your last watched movie' ''),
+      b = +promt('What is your rate' ''),
+      c = promt('Your last watched movie' ''),
+      d = +promt('What is your rate' '');
+
+personalMoviesDB.movies[a] = b;
+personalMoviesDB.movies[c] = d;
+
+console.log(personalMoviesDB);
